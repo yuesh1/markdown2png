@@ -1,0 +1,45 @@
+# 依赖目录
+node_modules
+
+# 构建输出
+dist
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# 日志
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# 环境文件
+.env
+.env.*
+!.env.example
+
+# Docker 文件（避免循环）
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 文档
+README.md
+LICENSE
+CLAUDE.md
+docs/
+
+# 测试
+*.test.ts
+*.spec.ts
+__tests__
+coverage
+
+# macOS
+.DS_Store
